@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" method="upgrade">
+  <name>Rastreamento Correios</name>
+  <author>Fernando Soares</author>
+  <creationDate>Abril/2012</creationDate>
+  <copyright>(C) 2008-2012 Fernando Soares</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>fsoares@fsoares.com.br</authorEmail>
+  <authorUrl>www.fernandosoares.com.br</authorUrl>
+  <version>2.6</version>
+  <description><![CDATA[
+		<h2>Rastreamento Correios</h2>
+		Desenvolvido por <a href="http://www.fernandosoares.com.br">Fernando Soares</a> - <a href="http://www.fernandosoares.com.br">www.fernandosoares.com.br</a>
+		<br /><br />
+		<p>Este módulo exibe uma pequena caixa para você entrar com o número do sedex ou encomenda a ser rastreado.</p>
+		<p>Versão 2.6 Compatível com Joomla! 1.5 ~ 2.5+</p>
+		<br />
+	]]></description>
+  <files>
+     <filename module="mod_sedex_tracker">mod_sedex_tracker.php</filename>
+	 <filename>index.html</filename>
+     <filename>sedex_tracker/correios.gif</filename>
+	 <filename>sedex_tracker/index.html</filename>
+  </files>
+  <config>		<fields name="params">			<fieldset name="basic">
+     <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Um sufixo a ser aplicado à classe css do módulo (table.moduletable), isto permite estilos individuais para o módule">
+</fieldset></fields>
+  </config>
+</extension>
